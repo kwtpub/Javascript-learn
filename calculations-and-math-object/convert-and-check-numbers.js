@@ -20,3 +20,8 @@ console.log(Number.parseFloat('sec 11.5', 10)) //NaN
 
 console.log(Number.isNaN(Number('11ad')))
 console.log(Number.isNaN(10 / 0))
+console.log(Number.isFinite(10 / 0))
+console.log(Number.isFinite(Number('11ad')))
+
+console.log(Number.isInteger(10))
+console.log(Number.isInteger(10.4))
