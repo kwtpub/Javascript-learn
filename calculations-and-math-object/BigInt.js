@@ -10,3 +10,10 @@ console.log(max + 3);
 
 console.log(23456789034567898765432345678n)
 console.log(BigInt('23456789034567898765432345678'));
+
+console.log(10n + 10n)
+console.log(10n + BigInt(10))
+
+console.log(10n === 10)
+console.log(10n / 3n)
+console.log(10 / 3)
