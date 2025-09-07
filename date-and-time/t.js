@@ -1,0 +1,5 @@
+const date = new Date()
+console.log(date)
+console.log(date.setDate(10))
+console.log(date.setTime(1000 * 60 * 60 * 24 * 5))
+console.log(date)
